@@ -1,0 +1,165 @@
+body, h1, input, select, button, table {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1e;
+    color: #e0e0e0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+#formContainer {
+    background-color: #2c2c2e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+
+label {
+    display: block;
+    color: #f5f5f7;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3a3a3c;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+input[type="text"]::placeholder, input[type="number"]::placeholder {
+    color: #8e8e93;
+}
+
+select {
+    color: #ffffff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0a84ff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #007aff;
+
+}
+
+#searchContainer {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+#searchContainer input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3a3a3c;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+
+#tableContainer {
+    background-color: #2c2c2e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    overflow-x: auto;
+    margin: 0 auto;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    color: #f5f5f7;
+}
+
+table th {
+    background-color: #3a3a3c;
+    font-weight: 700;
+}
+
+table tr:nth-child(even) {
+    background-color: #2c2c2e;
+}
+
+table tr:hover {
+    background-color: #444447;
+
+}
+
+table td {
+    border-bottom: 1px solid #3a3a3c;
+
+}
+
+
+table button {
+    background-color: #ff3b30;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+}
+
+table button:hover {
+    background-color: #d6302f;
+}
+
+table button:nth-child(1) {
+    background-color: #34c759;
+}
+
+table button:nth-child(1):hover {
+    background-color: #28a745;
+}
